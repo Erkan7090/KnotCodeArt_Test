@@ -4,4 +4,4 @@ Feature: Login Test
 Scenario: login with valid credentials
   Given Click Friends Button
   Then User shpuld..
-    Then uSerrr tstatatstst  bhjdfhjdsfhds
+    Then uSerrr tstatatstst  bhjdfhjdsfhds  gfuhfgfdfldjgf
