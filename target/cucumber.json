@@ -1,0 +1,63 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-28T19:32:16.589Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4875865800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "login with valid credentials",
+        "description": "",
+        "id": "login-test;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1247837900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 118093600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click Friends Button",
+            "match": {
+              "location": "loginTest.click_Friends_Button()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
